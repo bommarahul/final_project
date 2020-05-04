@@ -8,22 +8,27 @@ html,body{
   padding:0;
   height:100%;
   font-family: 'Open Sans';
+  background-image: url("ashes.jpeg");
+  background-repeat: no-repeat;
+  background-color:#DAA520;
+  background-size:cover;
 }
 body{
   opacity:0;
   transition: all 1s linear;
 }
 
+
 .divider{
   height: 150px;
-  width:2px;
+  width:4px;
   background-color: #C0C9CE;
   position: relative;
   top: 50%;
   float: left;
   transform: translateY(-50%);
 }
-
+/*
 #background-stats-1{
   background-color: #2196f3;
 }
@@ -31,14 +36,14 @@ body{
 #background-stats-2{
   background-color: #00cbca;
 }
-
+*/
 #content-container{
   z-index:2;
   position:relative;
   margin:0 auto;
   display:table;
-  padding:10px;
-  max-width:940px;
+  padding:15px;
+  max-width:1000px;
   height:100%;
 }
 #content-container-center{
@@ -88,12 +93,12 @@ body{
   text-transform: uppercase;
 }
 
-#choice .choice.dogs{
+#choice .choice.england{
   color: #00cbca;
   float: right;
 }
 
-#choice .choice.cats{
+#choice .choice.australia{
   color: #2196f3;
   float: left;
 }

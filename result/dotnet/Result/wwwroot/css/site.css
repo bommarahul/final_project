@@ -15,6 +15,13 @@ body {
 	opacity: 0;
 	transition: all 1s linear;
 }
+body{
+  background-image: url("ashes.jpeg");
+  background-repeat: no-repeat;
+  background-color:#DAA520;
+  background-size:cover;
+}	
+
 
 .divider {
 	height: 150px;
@@ -26,13 +33,14 @@ body {
 	transform: translateY(-50%);
 }
 
-#background-stats-1 {
+/*#background-stats-1 {
 	background-color: #2196f3;
 }
 
 #background-stats-2 {
 	background-color: #00cbca;
-}
+}*/
+/* Background color for frst stat and second stat, which is blue and green are removed */
 
 #content-container {
 	z-index: 2;
@@ -56,9 +64,9 @@ body {
 	bottom: 40px;
 	right: 20px;
 	color: #fff;
-	opacity: 0.5;
-	font-size: 45px;
-	font-weight: 600;
+	opacity: 0.7;
+	font-size: 35px;
+	font-weight: 500;
 }
 
 #choice {
@@ -67,8 +75,8 @@ body {
 	background: #fff;
 	box-shadow: 10px 0 0 #fff, -10px 0 0 #fff;
 	vertical-align: middle;
-	font-size: 40px;
-	font-weight: 600;
+	font-size: 35px;
+	font-weight: 500;
 	width: 450px;
 	height: 200px;
 }
@@ -96,12 +104,12 @@ body {
 		}
 
 		#choice .choice.resultb {
-			color: #00cbca;
+			color: #ffff00;
 			float: right;
 		}
 
 		#choice .choice.resulta {
-			color: #2196f3;
+			color: #ffff00;
 			float: left;
 		}
 
